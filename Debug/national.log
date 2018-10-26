@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/9/6 16:30:14。
+     1>项目“F:\我的程序\C++\国际象棋\national\national.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Important\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp".\Debug\national.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\software\important\vs2015\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         d:\software\important\vs2015\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\Software\Important\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\national.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AI.CPP chessgo.cpp D.cpp Diff.cpp diffcanuse.cpp diffore.cpp hero.cpp lasthero.cpp national.cpp nationalDlg.cpp shengji.cpp
+         shengji.cpp
+         nationalDlg.cpp
+     1>f:\我的程序\c++\国际象棋\national\chessgo.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\我的程序\c++\国际象棋\national\chessgo.h(6): warning C4183: “Board”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\我的程序\c++\国际象棋\national\nationaldlg.cpp(36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+         national.cpp
+     1>f:\我的程序\c++\国际象棋\national\national.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+         d:\software\important\vs2015\vc\atlmfc\include\afxwin.h(5224): note: 参见“CWinApp::Enable3dControls”的声明
+         lasthero.cpp
+         hero.cpp
+         diffore.cpp
+         diffcanuse.cpp
+         Diff.cpp
+         D.cpp
+         chessgo.cpp
+     1>f:\我的程序\c++\国际象棋\national\chessgo.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\我的程序\c++\国际象棋\national\chessgo.h(6): warning C4183: “Board”: 缺少返回类型；假定为返回“int”的成员函数
+         AI.CPP
+     1>f:\我的程序\c++\国际象棋\national\ai.cpp(180): error C2761: “int AI::Beta(int,int)”: 不允许成员函数重新声明
+         正在生成代码...
+     1>已完成生成项目“F:\我的程序\C++\国际象棋\national\national.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.44
